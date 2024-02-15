@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "./node_modules/.bin/jest --detectOpenHandles"
+  },
+  "engines": {
+    "node": "20.*",
+    "npm": "10.*"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-cli": "^29.0.0",
+    "jest-puppeteer": "^10.0.0",
+    "mkdirp": "^3.0.1",
+    "puppeteer": "^22.0.0",
+    "rimraf": "^5.0.5",
+    "os": "^0.1.2"
+  }
+}
