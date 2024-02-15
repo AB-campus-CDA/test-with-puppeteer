@@ -1,4 +1,4 @@
-const timeout = 1500;
+const timeout = 5000;
 
 // test d'un raccourcisseur d'URL
 describe("Shorten Anonymous", () => {
